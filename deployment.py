@@ -7,9 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1RoPb008cIQF2seTerevATXLwKLTs-Wfx
 """
 
-!pip install streamlit
-
-!pip install spacy
 
 import streamlit as st #to create web application by simple python code
 import pickle
