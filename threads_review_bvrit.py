@@ -278,9 +278,6 @@ After applying both regular expression substitutions and stripping any remaining
 
 df_new.review_description = df_new.review_description.apply(lambda x: clean_text(x))
 
-pip install spacy
-
-!python -m spacy download en_core_web_sm
 
 import spacy
 nlp = spacy.load('en_core_web_sm')
@@ -368,7 +365,7 @@ df_new.review_description = df_new.review_description.apply(lambda x: remove_emo
 
 df_new
 
-pip install wordcloud
+
 
 import wordcloud
 
@@ -443,7 +440,7 @@ from sklearn.model_selection import train_test_split
 
 X_train,X_test,y_train,y_test=train_test_split(data_vec,y,test_size=0.2,stratify = y, random_state=42)
 
-pip install imblearn
+
 
 from imblearn.over_sampling import SMOTE
 
